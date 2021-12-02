@@ -40,7 +40,7 @@ body {
 <body>
 
 <div class="topnav">
-  <a class="active" href="main">tabellina</a>
+  <a class="active" href="index.html">tabellina</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <div class="topnav-right">
