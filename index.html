@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>moltiplicazione</h1>
+<form id="frm1" >
+ numero 1 <input type="text" name="Hbase" id="n1" value="0"><br>
+numero 2 <input type="text" name="HArrivo" id="n2" value="0"><br><br>
+ <!-- <input type="submit" value="Input dati Trekking">-->
+</form>
+
+<p>Calcola:</p>
+<button onclick="myFunction()">Calcola:</button>
+
+
+la moltiplicazione è di:
+<p id="demo"></p>
+<script>
+function myFunction() {
+
+var x = document.getElementById("frm1");
+
+var base=x.elements[0].value;  
+document.getElementById("n1").innerHTML =base;
+
+var arrivo=x.elements[1].value;
+document.getElementById("n2").innerHTML =arrivo;
+  
+  document.getElementById("demo").innerHTML =Dislivello(base,arrivo);
+}
+
+function Dislivello(h1,h2){
+return h2*h1;
+}
+
+</script>
+
+</body>
+</html>
