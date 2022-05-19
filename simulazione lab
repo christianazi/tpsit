@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>verifica</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+<button class="box box1">9</button>
+<button class="box box2">18</button>
+<button class="box box3">27</button>
+<button class="box box4">36</button>
+<button class="box box5">45</button>
+<button class="box box6">54</button>
+<button class="box box7">64</button>
+<button class="box box8">72</button>
+<button class="box box9">81</button>
+<button class="box box10">90</button>
+<div class="boxlink">
+ <ul>
+   <li><a href="http://www.marcopalladino.it/it/game-design-or-lesson-design-the-flow/">Game design</li>
+   <li><a href="http://www.marcopalladino.it/it/cosa-puo-fare-lintelligenza-artificiale-quali-lavori-sono-realmente-a-rischio/">cosa-puo-fare-lintelligenza-artificiale</li>
+   <li><a href="http://www.marcopalladino.it/it/artificial-intelligences-examples/">artificial-intelligences</li>
+   <li><a href="http://www.marcopalladino.it/it/strumenti-per-la-didattica-a-distanza/">didattica a distanza</li>
+   <li><a href="http://www.marcopalladino.it/it/find-the-number-between-1-1000-with-a-higher-number-of-factors/">numero da 1 a 1000</li>
+   </ul>
+ 
+   <div class="boxlink2">
+ 
+ <ul>
+ 
+ 
+ 
+   <li><div class="button button1 button2"><a href="https://www.youtube.com/">Youtube</a></div></li>
+   <li><div class="button button1 button2"><a href="http://www.3dtuning.com/en-US/">3DTuning</a></div></li>
+   <li><div class="button button1 button2"><a href="https://christianazimonti.altervista.org/">il mio sito</a></div></li>
+   <li><div class="button button1 button2"><a href="https://www.nike.com/it/?cp=37999603079_search_%7Cnike%7C10574001737%7C104726557175%7Ce%7Cc%7CIT%7Cpure%7C563913836125&gclsrc=aw.ds&ds_rl=1252249&gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GS9k2EES4lkJiPMlj2hqYpbnhm7WAZEXl4717CeqHhqlj935fK4gcwaAs9vEALw_wcB">Nike</a></div></li>
+   <li><div="button button1 button2"><a href="https://www.instagram.com/_._chrii._/">instagram mio<a></div></li>
+ 
+ </body>
+</html>
+
+
+
+
+
+.box1{
+ background-color: blueviolet;
+}
+.box2{
+ background-color: rgb(0, 47, 255);
+}
+.box3{
+ background-color: rgb(0, 253, 97);
+}
+.box4{
+ background-color: rgb(255, 4, 25);
+}
+.box5{
+ background-color: rgb(217, 241, 0);
+}
+.box6{
+ background-color: rgb(0, 255, 191);
+}
+ 
+css:
+ 
+ 
+.box7{
+ background-color: rgb(255, 0, 106);
+}
+.box8{
+ background-color: rgb(255, 0, 170);
+}
+.box9{
+ background-color: rgb(4, 88, 11);
+}
+.box10{
+ background-color: rgb(50, 128, 115);
+}
+body{
+ background-color: black;
+}
+.boxlink{
+ background-color:grey;
+ width:650px;
+ height:200px;
+}
+a:link, a:visited {
+ color: rgb(255, 255, 255);
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+ a:hover {  
+ color: rgb(0, 255, 234);
+ background-color: transparent;
+ text-decoration: underline;
+ }
+ .button {
+ background-color: blueviolet;
+ border-radius: 5px;
+ color: rgb(252, 252, 252);
+ padding: 10px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+}
+ 
+ 
+.button1 {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ 
+ 
+.button2:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.boxlink2{
+ background-color:grey;
+ width:650px;
+ height:250px;
+}
