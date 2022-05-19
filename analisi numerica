@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <title>es test 1</title>
+</head>
+
+    <body style="background-color: #f9fbf2" onload="prodotto()">
+    
+        <div class="container-fluid">
+          <p id="b"></p>
+          <p id="c"></p>
+          <p id="a"></p>
+        
+      </body>
+    <script>
+      function Fattorizzazione(){
+        let contMax = -1;
+        let cont;
+        let numFatt;
+        for (let Var = 2; Var < 1000; Var++) {
+          cont = fattorizzatore(Var);
+          if (contMax < cont) {
+            contMax = cont;
+            numFatt = Var;
+          }
+        }
+        return numFatt;
+      }
+
+      function Fattori2(){
+        let contMax = -1;
+        let cont;
+        let numFatt;
+        for (let Var = 1000; Var < 2000; Var++) {
+          cont = fattorizzatore(Var);
+          if (contMax < cont) {
+            contMax = cont;
+            numFatt = Var;
+          }
+        }
+        return numFatt;
+      }
+
+      function prodotto(){
+        let n1 = Fattorizzazione();
+        let n2 = Fattori2();
+        let moltiplicazione = n1 * n2;
+        document.getElementById("a").innerText = moltiplicazione;
+        document.getElementById("b").innerHTML = n1;
+        document.getElementById("c").innerHTML = n2;
+      }
+
+      function fattorizzatore(n){
+        let cont = 0;
+        let Stop = n / 2;
+        for (let fat = 1; fat <= Stop; fat++) {
+          if (n % fat == 0) {
+            cont++;
+          }
+        }
+        return cont;
+      }
+    </script>
+ 
+</html>
