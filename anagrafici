@@ -1,0 +1,141 @@
+<html>
+ <head>
+  <title>Dati Anagrafici</title>
+ </head>
+<style>
+body {
+background-color: black;
+color: white;
+}
+</style>
+<body>
+ <h1 align="center">Dati Anagrafici</h1>
+ <hr>
+<table width="200" ; cellpadding="5" ; align="center">
+<style>
+td:empty:before{
+content: " ";
+}
+table{
+font-color:white;
+}
+td{
+face: Times New Roman;
+font-size: 20px;
+}
+</style>
+<tr>
+<td>Nome:</td>
+<td>Christian</td>
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td>Cognome:</td>
+<td>Azimonti</td>
+</tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<td>Luogo di nascità:</td>
+<td>Carmagnola</td>
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td>Città:</td>
+<td>Torino</td>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<td>Data di nascita:</td>
+<td>14/12/2005</td>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<tr>
+<td>Sesso:</td>
+<td><input type="radio" name="Sesso">  maschio</td>
+<td></td>
+<td><input type="radio" name="Sesso"></td>
+<td>femmina</td>
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+<td></td>
+<td></td> 
+<td></td>
+</table>i 5 link che preferisco sono:<br>
+- <a href="http://www.3dtuning.com/en-US" style="color:#a3a3c2">3D Tuning</a><br>
+- <a href="https://www.youtube.com/?gl=IT&hl=it" style="color:#e60000">youtube</a><br>
+- <a href="https://www.spotify.com/it" style="color:#2eb82e">spotify</a><br>
+- <a href="https://www.instagram.com" style="color:#cc00cc">instagram</a><br>
+- <a href="https://www.netflix.com" style="color:#cc0000">netflix</a><br>
+<p>
+</body>
+</html>
