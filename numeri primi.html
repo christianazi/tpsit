@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Numeri Primi</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <button onClick=GeneRazione()>stampa</button>
+
+  
+  <script>
+       function GeneRazione(){ 
+         for(let i=1;i<=100;i++){
+if(isPrime(i)){
+  document.write("<span> "+"<font color=red>"+i+"</font"+" </span>");
+  
+}
+  else{
+document.write("<span> "+i+" </span>");
+  }
+}
+      
+    }
+
+    
+    function isPrime(n){
+let primo=true;
+
+      for(let fattore=2;((fattore<=n/2)&& primo); fattore++){
+        if(n%fattore==0){
+          primo=false;
+        }
+      }
+      return primo;
+    }
+  </script>
+</body>
+</html>
